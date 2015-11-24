@@ -1,0 +1,24 @@
+{
+  "name": "RucsokJS",
+  "homepage": "https://github.com/Tacsiazuma/RucsokJS",
+  "authors": [
+    "Papp Krisztián <tacsiazuma@gmail.com>"
+  ],
+  "description": "A simple but useless javascript framework",
+  "main": "dist/rucsok.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "rucsok",
+    "js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

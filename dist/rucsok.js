@@ -1,8 +1,21 @@
 (function(){
 
-function rucsok() {
-  Object.prototype.to = function() { return this; }
-}
+  var rucsok = function() {
 
-return rucsok;
+  };
+  var functionKeyWords = ["we", "do", "anything", "productive"];
+
+  var propertyKeyWords = ["have", "nothing", "to"];
+
+  propertyKeyWords.forEach(function(key) {
+    rucsok.prototype[key] = new rucsok();
+  });
+
+  functionKeyWords.forEach(function(key) {
+    rucsok.prototype[key] = function() { return this; }
+  });
+
+  $R = new rucsok();
+
 })()
+
