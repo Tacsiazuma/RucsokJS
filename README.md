@@ -4,9 +4,9 @@
 
 A completely useless javascript framework to do absolutely nothing.
 
-Installation
+# Installation
 
-# bower
+with bower
 ```javascript
 bower install rucsokJS
 ```
