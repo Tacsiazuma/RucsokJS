@@ -1,12 +1,10 @@
 # RucsokJS
 
-<a href='http://jenkins.letscode.hu/job/RucsokJS/'><img src='http://jenkins.letscode.hu/buildStatus/icon?job=RucsokJS'></a>
 
-A completely useless javascript framework to do absolutely nothing.
+A ~~completely useless~~ rücsi javascript framework to do absolutely nothing (at work).
 
-# Installation
+# Examples
 
-with bower
 ```javascript
-bower install rucsokJS
+$('#sidebar').rucsify({"url": "http://wikipedia.org/"});
 ```
