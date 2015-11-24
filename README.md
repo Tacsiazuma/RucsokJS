@@ -10,3 +10,9 @@ with bower
 ```javascript
 bower install rucsokJS
 ```
+Usage
+```javascript
+if ($R.to().do.nothing()) {
+  $R.do.anything();
+} 
+```
