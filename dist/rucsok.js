@@ -85,12 +85,12 @@
         .bind(function(o){
           return o['url'];
         })
-        .maybe("Valamit elszámolhattál!", function(url){         
+        .maybe("Valamit elszĂˇmolhattĂˇl!", function(url){         
           var iframe = createIframeFromUrl(url);         
           iframe.width = elem.clientWidth;
           iframe.height = elem.clientHeight;
           elem.appendChild(iframe); 
-          return "Rücsifed!";
+          return "RĂĽcsifed!";
         });        
 
        console.log(rucssult);
