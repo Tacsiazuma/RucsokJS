@@ -1,5 +1,6 @@
 # RucsokJS
 
+[![Build Status](http://jenkins.letscode.hu/job/RucsokJS/badge/icon)](http://jenkins.letscode.hu/job/RucsokJS)
 
 A ~~completely useless~~ rücsi javascript framework to do absolutely nothing (at work).
 
